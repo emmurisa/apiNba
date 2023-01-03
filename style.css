@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.wrapper {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 10% 90%;
+}
+
+.one {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two {
+    color: white;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three {
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.four {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.teamButton {
+    width: 90px;
+    height: 30px;
+}
+
+.player {
+    border: solid black 1px;
+    width: 130px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: grey;
+    color: white;
+  }
+
+.player:hover {
+    background-color: red;
+    color: white;
+  }
